@@ -1,0 +1,74 @@
+html{
+    background-color: #959595;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    min-height: 100vh;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+
+}
+form{
+    width: 350px;
+
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 3px 3px  10px #bdc3c7;
+
+}
+fieldset{
+    border: none;
+    padding: 20px;
+}
+label{
+    margin-bottom: .25rem;
+
+}
+input,
+label{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+input{
+    padding: .75em;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    border: 1px solid solid #bbb;
+    font-size: 1rem;
+
+
+    
+}
+legend{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #454e4f;;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+
+}
+btn{
+    width: fit-content;
+    margin-left: auto;
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    
+
+}
+.actions{
+    display: flex;
+    gap:1em;
+
+}
+.btn2 btn--apagar{
+     background-color: red;
+     
+}
